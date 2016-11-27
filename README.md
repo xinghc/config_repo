@@ -8,7 +8,7 @@ Version 4.90 (SVN# 6338)
 
 ## Others
 
-### Command to start VirtualBox VM [^1]
+### Command to start VirtualBox VM ([ref](http://askubuntu.com/questions/445284/how-to-start-a-virtualbox-machine-via-command-line-without-gui/449249))
 
 #### Turn On
 
@@ -18,4 +18,3 @@ Version 4.90 (SVN# 6338)
 
 `VBoxManage controlvm "VM name" acpipowerbutton`
 
-[^1]: http://askubuntu.com/questions/445284/how-to-start-a-virtualbox-machine-via-command-line-without-gui/449249

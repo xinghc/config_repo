@@ -17,14 +17,34 @@ ref: http://askubuntu.com/questions/445284/how-to-start-a-virtualbox-machine-via
 
 
 Turn On
-``````````
+:::::::
 
 .. code:: bash
 
     VBoxManage startvm "VM name" --type headless
 
 Turn Off
-``````````
+::::::::
+
 .. code:: bash
 
     VBoxManage controlvm "VM name" acpipowerbutton
+
+
+Git
+````
+
+First Time to Setting
+:::::::::::::::::::::
+
+.. code:: bash
+
+    $ git config --global user.name "xinghc"
+    $ git config --global user.email xinghc@gmx.com
+
+How to check the existing setting
+:::::::::::::::::::::::::::::::::
+
+.. code:: bash
+
+    git config --list

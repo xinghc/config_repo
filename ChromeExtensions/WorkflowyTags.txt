@@ -1,0 +1,88 @@
+@-moz-document domain("workflowy.com") {
+
+/* Text selection color */
+*::selection {
+  background: #000000;
+  color: #ffffff;
+}
+*::-moz-selection {
+  background: #000000;
+  color: #ffffff;
+}
+*::-webkit-selection {
+  background: #000000;
+  color: #ffffff;
+}
+
+/* Search result color */
+.content .contentMatch {
+  background-color: #DF013A;
+  color: #ffffff;
+}
+
+.selected .project > .name > .content, .nameEditor > textarea {
+  font-size: 13px !important;
+  font-family:  'Source Code Pro', Symbola, "Everson Mono"  !important;
+  /*color: #191919 !important;*/
+}
+
+[title*="#SUSPENDED"] {
+        background-color: #777777 !important;
+        border-radius: 3px 3px 3px 3px !important;
+        color: #FFFFFF !important;
+        font-family: traveling _typewriter;
+        padding: 2px 3px 2px !important;
+        white-space: nowrap !important;
+		font-size: 8px  !important;
+}
+
+[title*="#NOTED"] {
+        background-color: #777777 !important;
+        border-radius: 3px 3px 3px 3px !important;
+        color: #FFFFFF !important;
+        font-family: traveling _typewriter;
+        padding: 2px 3px 2px !important;
+        white-space: nowrap !important;
+		font-size: 8px  !important;
+}
+
+[title*="#WIP"] {
+        background-color: #82BA00 !important;
+        border-radius: 3px 3px 3px 3px !important;
+        color: #FFFFFF !important;
+        font-family: traveling _typewriter;
+        padding: 2px 3px 2px !important;
+        white-space: nowrap !important;
+		font-size: 8px  !important;
+}
+
+[title*="#COMPLETED"] {
+        background-color: #0489B1 !important;
+        border-radius: 3px 3px 3px 3px !important;
+        color: #FFFFFF !important;
+        font-family: traveling _typewriter;
+        padding: 2px 3px 2px !important;
+        white-space: nowrap !important;
+		font-size: 8px  !important;
+}
+
+[title*="#now-or-never"] {
+        background-color: #FE2E2E !important;
+        border-radius: 3px 3px 3px 3px !important;
+        color: #FFFFFF !important;
+        font-family: traveling _typewriter;
+        padding: 2px 3px 2px !important;
+        white-space: nowrap !important;
+        text-decoration: none;
+}
+
+[title*="@Future-me"] {
+        background-color: #2E2E2E !important;
+        border-radius: 3px 3px 3px 3px !important;
+        color: #FFFFFF !important;
+        font-family: traveling _typewriter;
+        padding: 2px 3px 2px !important;
+        white-space: nowrap !important;
+        text-decoration: none;
+}
+}

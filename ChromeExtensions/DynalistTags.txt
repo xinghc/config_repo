@@ -1,0 +1,84 @@
+@-moz-document domain("dynalist.io") {
+.is-smallFont .Node-content,
+.is-mediumFont .Node-content,
+.is-largeFont .Node-content,
+.Node-self.is-noteEmpty .Node-content,
+.Node-self.is-noteEmpty .Node-renderedContent,
+.Node-note,
+.Node-renderedNote {
+    color: rgba(0, 0, 0, .80);
+    font-weight: 500;
+    line-height: 1.5;
+    padding-top: 0px;
+    padding-bottom: 4px;
+    font-family:  'Source Code Pro', Symbola, "Everson Mono" !important;
+    font-size: 0.8em;
+
+}
+
+.Document-rootNode > .Node-self.is-hidingNote.is-contentRendered,
+.Node-renderedContent {
+        font-family:  'Source Code Pro', Symbola, "Everson Mono" !important;
+    font-size: 0.8em !important;
+}
+
+[title*="#SUSPENDED"] {
+        background-color: #777777 !important;
+        border-radius: 3px 3px 3px 3px !important;
+        color: #FFFFFF !important;
+        font-family: traveling _typewriter;
+        padding: 2px 3px 2px !important;
+        white-space: nowrap !important;
+		font-size: 8px  !important;
+}
+
+[title*="#NOTED"] {
+        background-color: #777777 !important;
+        border-radius: 3px 3px 3px 3px !important;
+        color: #FFFFFF !important;
+        font-family: traveling _typewriter;
+        padding: 2px 3px 2px !important;
+        white-space: nowrap !important;
+		font-size: 8px  !important;
+}
+
+[title*="#WIP"] {
+        background-color: #bf6601 !important;
+        border-radius: 3px 3px 3px 3px !important;
+        color: #FFFFFF !important;
+        font-family: traveling _typewriter;
+        padding: 2px 3px 2px !important;
+        white-space: nowrap !important;
+		font-size: 8px  !important;
+}
+
+[title*="#COMPLETED"] {
+        background-color: #aaa8a5 !important;
+        border-radius: 3px 3px 3px 3px !important;
+        color: #FFFFFF !important;
+        font-family: traveling _typewriter;
+        padding: 2px 3px 2px !important;
+        white-space: nowrap !important;
+		font-size: 8px  !important;
+}
+
+[title*="#now-or-never"] {
+        background-color: #FE2E2E !important;
+        border-radius: 3px 3px 3px 3px !important;
+        color: #FFFFFF !important;
+        font-family: traveling _typewriter;
+        padding: 2px 3px 2px !important;
+        white-space: nowrap !important;
+        text-decoration: none;
+}
+
+[title*="@Future-me"] {
+        background-color: #2E2E2E !important;
+        border-radius: 3px 3px 3px 3px !important;
+        color: #FFFFFF !important;
+        font-family: traveling _typewriter;
+        padding: 2px 3px 2px !important;
+        white-space: nowrap !important;
+        text-decoration: none;
+}
+}

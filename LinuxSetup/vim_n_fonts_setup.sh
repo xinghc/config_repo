@@ -18,4 +18,14 @@ sudo mkdir $FONT_STORE_FOLD
 sudo cp *.ttf $FONT_STORE_FOLD
 cd $HOME_FOLD
 rm -rf $FONT_CACHE_FOLD
+
+mkdir $FONT_CACHE_FOLD
+cd $FONT_CACHE_FOLD
+wget https://github.com/powerline/fonts/raw/master/SourceCodePro/Source%20Code%20Pro%20for%20Powerline.otf
+sudo mkdir $FONT_STORE_FOLD
+sudo cp *.otf $FONT_STORE_FOLD
+cd $HOME_FOLD
+rm -rf $FONT_CACHE_FOLD
+
 ls $FONT_STORE_FOLD
+sudo fc-cache
